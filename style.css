@@ -460,5 +460,5 @@ td.commentsBodyAction{
 	border-left-color:#000000;
 }
 div.PassErr{
-	color:#ff0000;
+	color:red;
 }
