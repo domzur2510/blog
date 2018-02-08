@@ -1,0 +1,13 @@
+<?php
+require_once('header.php');
+	if(isset($_SESSION['userID'])){
+		unset($_SESSION['userID']);
+		$_SESSION=0;
+		session_destroy();
+		header('location:index.php');
+	}
+	else{
+		header('location:index.php');
+	}
+	require_once('footer.php');
+?>

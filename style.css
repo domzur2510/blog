@@ -1,0 +1,464 @@
+body{
+	background-color:#EEEEEE;
+	
+}
+div#minemenu{
+	background-color:#777777;
+	min-height:50px;
+	padding:15px 15px 15px 15px;
+	border-style:dotted;
+	border-color:#000000;
+	border-width:2px;
+	border-radius:25px 25px 0px 0px;
+	
+}
+div#logo{
+	color:#000000;
+	font-size:32px;
+	float:left;
+}
+
+div.mainmenuposition{
+	font-size:18px;
+	color:#000000;
+	float:right;
+	margin-left:5px;
+	
+	margin-top:10px;
+	margin-bottom:auto;
+	border-right-style:dotted;
+	border-color:black;
+	padding-left:2px;
+	padding-right:2px;
+	border-width:1px;
+}
+div.mainmenuposition:hover{
+	color:#333333;
+	border-color:#333333;
+	
+}
+
+div#footer{
+	background-color:#777777;
+	border-style:dotted;
+	border-color:#000000;
+	border-width:2px;
+	border-radius:0px 0px 25px 25px;
+}
+div.footerInf{
+	
+	padding-top:20px;
+	padding-bottom:20px;
+	width:48%;
+	float:left;
+	text-align:center;
+}
+div.post{
+	padding-bottom:20px;
+}
+div.maincontent{
+	padding-top:20px;
+	padding-left:20px;
+	padding-bottom:20px;
+	padding-right:20px;
+	min-height:250px;
+	height:auto;
+	width:80%;
+	float:left;
+	
+	
+}
+div.title{
+	
+	padding:10px;
+	font-size:40px;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	color:#000000;
+}
+div.title:hover{
+	color:#333333;
+}
+
+div.addData{
+	padding:10px;
+	font-size:12px;
+	border-bottom-style:solid;
+	border-right-style:solid;
+	border-left-style:solid;
+	border-width:1px;
+	border-color:black;
+}
+div.content{
+	font-size:18px;
+	padding:10px;
+	text-align:justify;
+	min-height:75px;
+	border-right-style:solid;
+	border-left-style:solid;
+	border-width:1px;
+	border-color:black;
+}
+div.author{
+	text-align:right;
+	padding:10px;
+	font-size:12px;
+	border-bottom-style:solid;
+	border-right-style:solid;
+	border-left-style:solid;
+	border-width:1px;
+	border-color:black;
+}
+a.link{
+	text-decoration:none;
+}
+
+div.secmenu{
+	text-align:justify;
+	margin-top:20px;
+	margin-right:20px;
+	padding:5px;
+	float:right;
+	width:14%;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1px;
+}
+span.newsletterAlert{
+	color:#ff0000;
+}
+span.newsletterInf{
+	color:#00FF00;
+}
+div#aboutTitle{
+	padding:10px;
+	font-size:40px;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	color:#000000;
+}
+div#aboutcontent{
+	padding:10px;
+	font-size:18px;
+	border-bottom-style:solid;
+	border-right-style:solid;
+	border-left-style:solid;
+	border-width:1px;
+	border-color:black;
+}
+p#aboutEmail{
+	border-bottom-style:dotted;
+	border-width:2px;
+	border-color:black;
+}
+p#about{
+	text-align:justify;
+}
+div.comment{
+	margin:20px;
+	padding:20px;
+	
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+}
+div.commentData{
+	font-size:12px;
+	border-bottom-style:dotted;
+	border-width:1px;
+	border-color:#000000;
+	margin-bottom:10px;
+}
+div.commentContent{
+	font-size:18px;
+	text-align:justify;
+	margin-bottom:10px;
+}
+div.commentAuthor{
+	text-align:right;
+	font-size:12px;
+	
+}
+div.container{
+	min-height:500px;
+	border-right-style:dotted;
+	border-left-style:dotted;
+	border-color:#000000;
+	border-width:2px;
+}
+textarea.addComment{
+	height:75px;
+	width:100%;
+	resize:none;
+}
+span.commentError{
+	color:#ff0000;
+}
+div.commNumb{
+	color:#000000;
+}
+div.commNumb:Hover{
+	color:#333333;
+}
+div.loginPage{
+	padding:5px 5px;
+	margin:0px 35%;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+}
+div.loginLabel{
+	width:20%;
+	float:left;
+	text-align:right;
+}
+div.loginField{
+	width:80%;
+	float:left;
+}
+div.loginButton{
+	padding:0px 20%;
+}
+input.loginInput{
+	width:90%;
+}
+div.cmsmenu{
+	
+	width:13%;
+	border-right-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	margin-top:20px;
+	padding:20px;
+	float:left;
+}
+div.cmsmenuOption{
+	padding:5px 0px;
+	color:#000000;
+	border-bottom-style:dotted;
+	
+	border-color:#000000;
+	border-width:2px;
+	text-align:center;
+}
+div.cmsmenuOption:Hover{
+	color:#333333;
+	border-color:#333333;
+}
+div.cmsContent{
+	font-size:18px;
+	
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+	
+	
+	padding:10px;
+	text-align:justify;
+	min-height:75px;
+	border-right-style:solid;
+	border-left-style:solid;
+	border-width:1px;
+	border-color:black;
+}
+table.posts{
+	border-color:#000000;
+	border-width:2px;
+	border-style:solid;
+	width:100%;
+}
+
+td.postsHeadTitle{
+	text-align:center;
+	width:40%;
+	border-bottom-style:double;
+	border-bottom-color:#000000;
+	border-bottom-width:3px;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#000000;
+}
+td.postsHeadData{
+	text-align:center;
+	width:20%;
+	border-bottom-style:double;
+	border-bottom-color:#000000;
+	border-bottom-width:3px;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#000000;
+}
+td.postsHeadAuthor{
+	text-align:center;
+	width:10%;
+	border-bottom-style:double;
+	border-bottom-color:#000000;
+	border-bottom-width:3px;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#000000;
+}
+td.postsHeadAction{
+	text-align:center;
+	border-bottom-style:double;
+	border-bottom-color:#000000;
+	border-bottom-width:3px;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#000000;
+}
+td.postsBodyTitle{
+	text-align:center;
+	width:40%;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	border-bottom-width:1px;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#000000;
+}
+td.postsBodyData{
+	text-align:center;
+	width:20%;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	border-bottom-width:1px;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#000000;
+}
+td.postsBodyAuthor{
+	text-align:center;
+	width:10%;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	border-bottom-width:1px;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#000000;
+}
+td.postsBodyAction{
+	text-align:center;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	border-bottom-width:1px;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#000000;
+}
+tr{
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	border-bottom-width:1px;
+}
+textarea.editPost{
+	height:300px;
+	width:100%;
+	resize:none;
+}
+table.comments{
+	text-align:center;
+	width:100%;
+	border-style:solid;
+	border-width:2px;
+	border-color:#000000;
+}
+td.commentsHeadAuthor{
+	width:10%;
+	border-bottom-style:double;
+	border-bottom-width:3px;
+	border-bottom-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#000000;
+}
+td.commentsHeadContent{
+	width:60%;
+	border-bottom-style:double;
+	border-bottom-width:3px;
+	border-bottom-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#000000;
+}
+td.commentsHeadData{
+	width:10%;
+	border-bottom-style:double;
+	border-bottom-width:3px;
+	border-bottom-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#000000;
+}
+td.commentsHeadAction{
+	border-bottom-style:double;
+	border-bottom-width:3px;
+	border-bottom-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#000000;
+}
+td.commentsBodyAuthor{
+	width:10%;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#000000;
+}
+td.commentsBodyContent{
+	width:60%;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#000000;
+}
+td.commentsBodyData{
+	width:20%;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#000000;
+}
+td.commentsBodyAction{
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#000000;
+}
+div.PassErr{
+	color:#ff0000;
+}
